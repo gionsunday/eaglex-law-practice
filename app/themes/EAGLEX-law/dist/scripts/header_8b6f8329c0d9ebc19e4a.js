@@ -1,0 +1,1 @@
+!function(){var e,o=document.documentElement,c=window,l=c.scrollY||o.scrollTop,n=0,d=0,s=document.querySelector(".header"),t=function(e,o){2===e&&o>20?(s.classList.add("hide"),d=e):1===e&&(s.classList.remove("hide"),d=e)};window.addEventListener("scroll",(function(){(e=c.scrollY||o.scrollTop)>l?n=2:e<l&&(n=1),n!==d&&t(n,e),l=e}))}();

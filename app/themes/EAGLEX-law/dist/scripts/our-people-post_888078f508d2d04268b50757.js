@@ -1,0 +1,1 @@
+!function(){var a=document.querySelector(".our-people-post__wrapper");a&&(a.querySelector("p").classList.add("font-family-playfair-display","font-size-intro"),a.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach((function(a){a.classList.add("font-family-playfair-display")})))}();
